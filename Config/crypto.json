@@ -1,13 +1,11 @@
 {
     "hash": {
         "method": "sha256",
-        "encoding": "hex",
-        "key": "0000000000000000"
+        "key": "password"
     },
-    
     "cipher": {
-        "method": "aes256",
-        "encoding": "base64",
-        "key": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+        "method": "chacha20",
+        "key": "passwordpasswordpasswordpassword",
+        "iv": "password"
     }
 }
